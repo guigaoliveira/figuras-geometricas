@@ -1,0 +1,83 @@
+\hypertarget{classCirculo}{}\section{Circulo Class Reference}
+\label{classCirculo}\index{Circulo@{Circulo}}
+
+
+The \hyperlink{classCirculo}{Circulo} class.  
+
+
+
+
+{\ttfamily \#include $<$circulo.\+h$>$}
+
+
+
+Inheritance diagram for Circulo\+:
+% FIG 0
+
+
+Collaboration diagram for Circulo\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCirculo_a132d087aa6a0d5d915068ba51aea85ba}{Circulo} (int \+\_\+x=0, int \+\_\+y=0, int \+\_\+r=0, char \+\_\+brush=\textquotesingle{} \textquotesingle{}, int \+\_\+is\+Filled=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCirculo_a132d087aa6a0d5d915068ba51aea85ba}{Circulo\+::\+Circulo}. \end{DoxyCompactList}\item 
+void \hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{draw} (\hyperlink{classScreen}{Screen} \&t)
+\begin{DoxyCompactList}\small\item\em \hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{Circulo\+::draw}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classCirculo}{Circulo} class. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCirculo_a132d087aa6a0d5d915068ba51aea85ba}\label{classCirculo_a132d087aa6a0d5d915068ba51aea85ba}} 
+\index{Circulo@{Circulo}!Circulo@{Circulo}}
+\index{Circulo@{Circulo}!Circulo@{Circulo}}
+\subsubsection{\texorpdfstring{Circulo()}{Circulo()}}
+{\footnotesize\ttfamily Circulo\+::\+Circulo (\begin{DoxyParamCaption}\item[{int}]{\+\_\+x = {\ttfamily 0},  }\item[{int}]{\+\_\+y = {\ttfamily 0},  }\item[{int}]{\+\_\+r = {\ttfamily 0},  }\item[{char}]{\+\_\+brush = {\ttfamily \textquotesingle{}~\textquotesingle{}},  }\item[{int}]{\+\_\+is\+Filled = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classCirculo_a132d087aa6a0d5d915068ba51aea85ba}{Circulo\+::\+Circulo}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+x} & \\
+\hline
+{\em \+\_\+y} & \\
+\hline
+{\em \+\_\+r} & \\
+\hline
+{\em \+\_\+brush} & \\
+\hline
+{\em \+\_\+is\+Filled} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classCirculo_a593787d6e0618c2eded23e8839e7bea6}\label{classCirculo_a593787d6e0618c2eded23e8839e7bea6}} 
+\index{Circulo@{Circulo}!draw@{draw}}
+\index{draw@{draw}!Circulo@{Circulo}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Circulo\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{classScreen}{Screen} \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\hyperlink{classCirculo_a593787d6e0618c2eded23e8839e7bea6}{Circulo\+::draw}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & \\
+\hline
+\end{DoxyParams}
+Método para o desenho do círculo, usa o algoritmo de bresenham para tentar criar o círculo. Baseado em\+: \href{https://www.geeksforgeeks.org/bresenhams-circle-drawing-algorithm/}{\tt https\+://www.\+geeksforgeeks.\+org/bresenhams-\/circle-\/drawing-\/algorithm/}. 
+
+Implements \hyperlink{classFiguraGeometrica_a68c63fbb8df93c677d9e8d134bb57f94}{Figura\+Geometrica}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+circulo.\+h\item 
+circulo.\+cpp\end{DoxyCompactItemize}
